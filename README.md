@@ -2,7 +2,7 @@
 
 The "Twitter US Airline Sentiment" dataset on Kaggle provides a rich source of real-world data for sentiment analysis related to airlines. However, beyond just sentiment, this data can yield valuable insights regarding **operational aspects of airlines (like airport operations)**. 
 
-Download this dataset from herehttps://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment/download?datasetVersionNumber=4 
+Download this dataset from here: https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment/download?datasetVersionNumber=4 
 
 ## Problem Statement
 
@@ -31,8 +31,8 @@ Download this dataset from herehttps://www.kaggle.com/datasets/crowdflower/twitt
 
 In this problem, our goal is to extract airport mentions from tweet texts and identify the airports where each airline operates. Airports are typically denoted in a 3-letter format in capital alphabets. For finding airport mentions using regular expressions and spacy tools, I have used this assumption.
 
-**Approach 1**: Using regular expressions
-**Approach 2**: Using the Named Entity Recognition tool in spaCy
-**Approach 3**: Using HuggingFace language models: I took an example model of TFBertForTokenClassification but we can use a different available model as well. For tokenization, I used the BertTokenizer. The model name that I used from HuggingFace is called ‘dbmdz/bert-large-cased-finetuned-conll03-english’.
+ * **Approach 1**: Using regular expressions
+ * **Approach 2**: Using the Named Entity Recognition tool in spaCy
+ * **Approach 3**: Using HuggingFace language models: I took an example model of TFBertForTokenClassification but we can use a different available model as well. For tokenization, I used the BertTokenizer. The model name that I used from HuggingFace is called ‘dbmdz/bert-large-cased-finetuned-conll03-english’.
 
 All my comments are also outlined in the Jupyter notebook markdown.
